@@ -3,6 +3,7 @@
 for(int contador = 0; contador < 10; contador++)
 {
     Console.WriteLine("Qual o valor da sua conta?");
+
     cartela[contador] = Convert.ToDecimal(Console.ReadLine());
 
     if(contador == 9)
